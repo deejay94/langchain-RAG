@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "RAG with Langchain"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-packages = [{include = "my_rag_project", from = "src"}]
+packages = [{include = "my_rag_project"}]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<4.0"

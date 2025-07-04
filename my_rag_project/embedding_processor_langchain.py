@@ -118,7 +118,7 @@ from langchain_community.vectorstores import Chroma
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"  # Free, lightweight model
 COLLECTION_NAME = "company_documents_langchain"
 CHROMA_DB_PATH = "../chroma_db_langchain"  # New path for Langchain version
-DOC_DIR = "."  # Relative to this script's location, pointing to the project root
+DOC_DIR = ".."  # Relative to this script's location, pointing to the project root
 
 def main():
     print("Starting Langchain-based embedding process with free model...")
